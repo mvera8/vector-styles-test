@@ -31,7 +31,6 @@ export const GuidesHero = () => {
 					</div>
 				</div>
 			</div>
-			
 
 			{/* Vector styles */}
 			<div className="offcanvas offcanvas-end" data-bs-backdrop="false" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -41,7 +40,6 @@ export const GuidesHero = () => {
 				</div>
 
 				<div className="offcanvas-body">
-
 					<div className="mb-5">
 						<label>Styles</label>
 						<CodeMirror
@@ -51,7 +49,6 @@ export const GuidesHero = () => {
 							onChange={ onChange }
 						/>
 					</div>
-
 					<div className="mb-3">
 						<button
 							className="btn btn-primary btn-bg me-3"
@@ -59,7 +56,6 @@ export const GuidesHero = () => {
 							onClick={ changeVector }>
 								Test Styles
 						</button>
-
 						<button
 							className="btn btn-dark btn-bg"
 							type="button"
@@ -67,8 +63,6 @@ export const GuidesHero = () => {
 								Reset
 						</button>
 					</div>
-
-
 				</div>
 			</div>
 		</>
